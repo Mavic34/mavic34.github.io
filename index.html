@@ -3,89 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Remote Accounting & Financial Reporting Specialist</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Financial Operations Consultant</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 <style>
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background-color: #f7f9fc;
+    background-color: #f9fafb;
     color: #1f2937;
-    line-height: 1.6;
 }
+
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
 }
+
 header {
-    background: #0f172a;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
-    padding: 80px 0;
-    text-align: center;
+    padding: 100px 0;
 }
-header h1 {
-    font-size: 42px;
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
     margin-bottom: 20px;
 }
-header p {
-    font-size: 20px;
+
+.hero-text p {
+    font-size: 18px;
     color: #cbd5e1;
 }
-.btn {
+
+.cta-btn {
     display: inline-block;
     margin-top: 30px;
-    padding: 14px 28px;
-    background: #2563eb;
+    padding: 14px 30px;
+    background: #3b82f6;
     color: white;
     text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
 }
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 280px;
+    border-radius: 50%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
 section {
-    padding: 70px 0;
+    padding: 80px 0;
 }
+
 h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-align: center;
 }
-.services, .results {
+
+.card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
 }
+
 .card {
     background: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
-.card h3 {
-    margin-top: 0;
-}
-.tools-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-.tool {
-    background: #e2e8f0;
-    padding: 10px 18px;
-    border-radius: 20px;
-    font-size: 14px;
-}
-.contact {
+
+.results {
     background: #0f172a;
     color: white;
     text-align: center;
-    padding: 60px 0;
 }
+
+.results h3 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.contact {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
 footer {
+    background: #0f172a;
+    color: #94a3b8;
     text-align: center;
     padding: 20px;
-    background: #0b1220;
-    color: #94a3b8;
-    font-size: 14px;
 }
 </style>
 </head>
@@ -93,112 +129,76 @@ footer {
 <body>
 
 <header>
-    <div class="container">
-        <h1>Remote Accounting & Financial Reporting Specialist</h1>
-        <p>Helping US construction & logistics companies improve cash flow, reporting accuracy, and operational efficiency.</p>
-        <a href="#contact" class="btn">Book a Free Consultation</a>
-    </div>
+<div class="container hero">
+<div class="hero-text">
+<h1>Financial Operations Consultant for US Construction & Logistics Companies</h1>
+<p>I help businesses improve cash flow, reporting accuracy, and operational efficiency through data-driven accounting systems and KPI reporting.</p>
+<a href="#contact" class="cta-btn">Book a Free Consultation</a>
+</div>
+
+<div class="hero-image">
+<img src="profile.jpg" alt="Profile Photo">
+</div>
+</div>
 </header>
 
 <section>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            Detail-oriented Accounting & Finance Professional with over 20 years of experience supporting US-based construction, logistics, and corporate service companies.
-        </p>
-        <p>
-            I specialize in Accounts Receivable & Payable, Payroll & Timecard Audits, Financial Reporting, KPI Dashboards, and cash flow optimization. 
-            Currently supporting multiple US clients as a remote contractor, delivering reliable, confidential, and results-driven financial support.
-        </p>
-    </div>
-</section>
-
-<section style="background:#eef2f7;">
-    <div class="container">
-        <h2>Services</h2>
-        <div class="services">
-            <div class="card">
-                <h3>Full-Cycle Bookkeeping</h3>
-                <p>QuickBooks management, reconciliations, accrual entries, and month-end close processes.</p>
-            </div>
-            <div class="card">
-                <h3>Accounts Receivable Optimization</h3>
-                <p>AR aging analysis, collection improvement, payment tracking systems, and chargeback management.</p>
-            </div>
-            <div class="card">
-                <h3>Accounts Payable & Document Control</h3>
-                <p>Invoice validation, vendor reconciliation, workflow automation, and compliance monitoring.</p>
-            </div>
-            <div class="card">
-                <h3>Payroll & Timecard Audits</h3>
-                <p>ADP audits, job-cost review, payroll discrepancy detection, and compliance assurance.</p>
-            </div>
-            <div class="card">
-                <h3>Financial Reporting & Dashboards</h3>
-                <p>P&L analysis, KPI dashboards, cost tracking, Excel & Google Sheets automation.</p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h2>About Me</h2>
+<p style="text-align:center; max-width:800px; margin:auto;">
+Detail-oriented Accounting & Finance Professional with over 20 years of experience supporting US-based construction, logistics, and corporate service companies. 
+Specializing in AR/AP optimization, payroll audits, financial reporting, and dashboard automation that drives better business decisions.
+</p>
+</div>
 </section>
 
 <section>
-    <div class="container">
-        <h2>Results & Impact</h2>
-        <div class="results">
-            <div class="card">
-                <h3>30% Reduction</h3>
-                <p>Reduced aged receivables through proactive follow-ups and improved tracking systems.</p>
-            </div>
-            <div class="card">
-                <h3>5,000+ Transactions Monthly</h3>
-                <p>Maintained 98% accuracy while shortening month-end close by three days.</p>
-            </div>
-            <div class="card">
-                <h3>80% Faster AP Processing</h3>
-                <p>Streamlined freight documentation and invoice workflows.</p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h2>Core Services</h2>
+<div class="card-grid">
+<div class="card">
+<h3>Full-Cycle Bookkeeping</h3>
+<p>QuickBooks management, reconciliations, accrual entries, and month-end close.</p>
+</div>
+<div class="card">
+<h3>Accounts Receivable Optimization</h3>
+<p>AR aging reduction, collections systems, and payment tracking automation.</p>
+</div>
+<div class="card">
+<h3>Payroll & Timecard Audits</h3>
+<p>ADP audits, job-cost validation, compliance monitoring.</p>
+</div>
+<div class="card">
+<h3>Financial Reporting & Dashboards</h3>
+<p>KPI dashboards, P&L review, cost tracking, Excel & Sheets automation.</p>
+</div>
+</div>
+</div>
 </section>
 
-<section style="background:#eef2f7;">
-    <div class="container">
-        <h2>Tools & Systems</h2>
-        <div class="tools-list">
-            <div class="tool">QuickBooks Online</div>
-            <div class="tool">Bill.com</div>
-            <div class="tool">ADP Payroll</div>
-            <div class="tool">Advanced Excel (Pivot, VBA)</div>
-            <div class="tool">Google Sheets Automation</div>
-            <div class="tool">Slack / Zoom / Google Drive</div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <h2>Why Work With Me</h2>
-        <ul>
-            <li>✔ 20+ years accounting experience</li>
-            <li>✔ Specialized in US construction & logistics</li>
-            <li>✔ Strong audit mindset & internal controls</li>
-            <li>✔ KPI-driven reporting approach</li>
-            <li>✔ Confidential, accountable, long-term partner</li>
-        </ul>
-    </div>
+<section class="results">
+<div class="container">
+<h2>Proven Results</h2>
+<h3>30%</h3>
+<p>Reduction in aged receivables</p>
+<h3>80%</h3>
+<p>Faster AP processing workflow</p>
+<h3>5,000+</h3>
+<p>Monthly transactions processed with 98% accuracy</p>
+</div>
 </section>
 
 <section id="contact" class="contact">
-    <div class="container">
-        <h2>Let’s Improve Your Financial Operations</h2>
-        <p>Email: mlacida1980@gmail.com</p>
-        <p>LinkedIn: www.linkedin.com/in/marivic-oñang-520aab26</p>
-        <p>Schedule a 30-minute consultation to discuss how I can support your business.</p>
-    </div>
+<div class="container">
+<h2>Let’s Strengthen Your Financial Operations</h2>
+<p>Email: your@email.com</p>
+<p>LinkedIn: https://linkedin.com/in/yourprofile</p>
+<p>Available for remote partnerships with US-based businesses.</p>
+</div>
 </section>
 
 <footer>
-    © 2026 Marivic Lacida Onang | Remote Accounting & Financial Reporting Specialist
+© 2026 Your Name | Financial Operations Consultant
 </footer>
 
 </body>
